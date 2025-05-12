@@ -70,7 +70,6 @@ To training/evaluating our model, please execute the following commands, after s
 
 ### FB15K
 
-**Command:**
 ```bash
 python easing/main_easing.py --dataset FB15K \
 --data_path {your path} \
@@ -82,7 +81,6 @@ python easing/main_easing.py --dataset FB15K \
 
 ### TMDB15K
 
-**Command:**
 ```bash
 python easing/main_easing.py --dataset TMDB5K \
 --data_path {your path} \
@@ -94,7 +92,6 @@ python easing/main_easing.py --dataset TMDB5K \
 
 ### IMDB
 
-**Command:**
 ```bash
 python easing/main_easing.py --dataset IMDB \
 --data_path {your path} \

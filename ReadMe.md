@@ -108,10 +108,9 @@ python easing/main_easing.py --dataset IMDB \
 
 ## 📄 Citation
 
-
-```bibtex
 If you find our work or this code useful in your research, please consider citing our paper:
 
+```bibtex
 @inproceedings{chen2025semi,
   title={Semi-supervised node importance estimation with informative distribution modeling for uncertainty regularization},
   author={Chen, Yankai and Wang, Taotao and Fang, Yixiang and Xiao, Yunyu},

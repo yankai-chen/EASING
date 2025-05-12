@@ -2,8 +2,7 @@
 
 ![替代文本](Framework.jpg)
 
-This repository provides the PyTorch implementation for our WWW'25 paper: [[Paper](https://arxiv.org/abs/2503.20697)].
-
+This repository provides the PyTorch implementation for our WWW'25 paper [[EASING](https://arxiv.org/abs/2503.20697)].
 
 
 ## 🔧 Requirements
@@ -109,9 +108,10 @@ python easing/main_easing.py --dataset IMDB \
 
 ## 📄 Citation
 
-If you find our work or this code useful in your research, please consider citing our paper:
 
 ```bibtex
+If you find our work or this code useful in your research, please consider citing our paper:
+
 @inproceedings{chen2025semi,
   title={Semi-supervised node importance estimation with informative distribution modeling for uncertainty regularization},
   author={Chen, Yankai and Wang, Taotao and Fang, Yixiang and Xiao, Yunyu},

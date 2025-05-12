@@ -108,7 +108,7 @@ python easing/main_easing.py --dataset IMDB \
 
 ## 📄 Citation
 
-If you find our work or this code useful in your research, please consider citing our paper:
+If you find our work useful in your research, please consider citing our paper:
 
 ```bibtex
 @inproceedings{chen2025semi,

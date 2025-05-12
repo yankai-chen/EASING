@@ -1,8 +1,10 @@
-This repository provides the official PyTorch implementation for our WWW'25 paper: **"Semi-supervised Node Importance Estimation with Informative Distribution Modeling for Uncertainty Regularization"** [[Paper](https://arxiv.org/abs/2503.20697)].
+## EASING: Semi-supervised Node Importance Estimation with Informative Distribution Modeling for Uncertainty Regularization
+
+![替代文本](Framework.jpg)
+
+This repository provides the PyTorch implementation for our WWW'25 paper: [[Paper](https://arxiv.org/abs/2503.20697)].
 
 
-
----
 
 ## 🔧 Requirements
 
@@ -15,8 +17,6 @@ The codes are built with the following main dependencies:
 * `scipy=1.8.0`
 * `tqdm=4.66.1`
 * `numpy=1.22.4`
-
----
 
 
 ## 💾 Datasets
@@ -64,7 +64,6 @@ The dataset organization under "/datasets" is:
 └── ...
 ```
 
----
 
 ## 🚀 Usage
 
@@ -107,7 +106,6 @@ python easing/main_easing.py --dataset IMDB \
  --REnt_bool True --unc_layers 1
 ```
 
----
 
 ## 📄 Citation
 

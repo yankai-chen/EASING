@@ -418,7 +418,7 @@ if __name__ == '__main__':
                         help="number of hidden layers")
     parser.add_argument("--num-hidden", type=int, default=8,
                         help="number of hidden units")
-    parser.add_argument("--residual", action="store_true", default=True,
+    parser.add_argument("--residual", action="store_false",
                         help="use residual connection")
     parser.add_argument("--feat-drop", type=float, default=0.)
     parser.add_argument("--in-drop", type=float, default=.3,
@@ -431,7 +431,7 @@ if __name__ == '__main__':
                         help="weight decay")
     parser.add_argument('--negative-slope', type=float, default=0.2,
                         help="the negative slope of leaky relu")
-    parser.add_argument('--early-stop', action='store_true', default=True,
+    parser.add_argument('--early-stop', action='store_true',
                         help="indicates whether to use early stop or not")
     parser.add_argument('--patience', type=int, default=500,
                         help="indicates when to early stop")
@@ -440,9 +440,9 @@ if __name__ == '__main__':
     parser.add_argument('--save-path', type=str, default='checkpoint_fb15k.pt',
                         help='the path to save the best model')
 
-    parser.add_argument('--norm', action="store_true", default=True)
+    parser.add_argument('--norm', action="store_false")
     parser.add_argument('--edge-mode', type=str, default='MUL')
-    parser.add_argument('--spm', action="store_true", default=True)
+    parser.add_argument('--spm', action="store_false")
     parser.add_argument('--list-num', type=int, default=100)
     parser.add_argument("--train_num", type=float, default=1.0,
                         help="percentage of labeled data. 1.0 means 10% nodes were labeled") 
@@ -453,7 +453,7 @@ if __name__ == '__main__':
     parser.add_argument('--centrality_gamma', type=float, default=0.9)
     parser.add_argument('--centrality_beta', type=float, default=0.0)
     
-    parser.add_argument('--REnt_bool', action="store_true", default=True)
+    parser.add_argument('--REnt_bool', action="store_false")
     parser.add_argument("--unc_layers", type=int, default=2,
                         help="number of layers in uncertainty prediction transformer")
     parser.add_argument("--uhgt_in_dim", type=int, default=1,

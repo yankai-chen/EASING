@@ -74,9 +74,9 @@ To training/evaluating our model, please execute the following commands, after s
 python easing/main_easing.py --dataset FB15K \
 --data_path {your path} \
 --graph_data FB15K/fb15k_rel.pk --semantic_data FB15K/fb_lang.pk \
---residual True --norm True --spm True --train_num 1.0 \
+--residual --norm --spm --train_num 1.0 \
 --samp_ssl 5 --w_ulb 1.0 --loss_beta 0.0 --centrality_gamma 0.9 \
---REnt_bool True --unc_layers 2
+--REnt_bool --unc_layers 2
 ```
 
 ### TMDB15K
@@ -85,9 +85,9 @@ python easing/main_easing.py --dataset FB15K \
 python easing/main_easing.py --dataset TMDB5K \
 --data_path {your path} \
 --graph_data TMDB5K/tmdb_rel.pk --semantic_data TMDB5K/tmdb_lang.pk \
---residual True --norm True --spm True --train_num 1.0 \
+--residual --norm --spm --train_num 1.0 \
 --samp_ssl 5 --w_ulb 1.0 --loss_beta 0.0 --centrality_gamma 0.9 \
---REnt_bool True --unc_layers 1
+--REnt_bool --unc_layers 1
 ```
 
 ### IMDB
@@ -97,9 +97,9 @@ python easing/main_easing.py --dataset IMDB \
 --data_path {your path} \
 --graph_data IMDB/imdb_s_rel_150000.pk --semantic_data IMDB/imdb_s_lang_150000.pk \
 --structure_data IMDB/imdb_s_node2vec_new_150000.pk \
---residual True --norm True --spm True --train_num 1.0 \
+--residual --norm --spm --train_num 1.0 \
  --samp_ssl 5 --w_ulb 1.0 --loss_beta 0.0 --centrality_gamma 0.6 \
- --REnt_bool True --unc_layers 1
+ --REnt_bool --unc_layers 1
 ```
 
 
